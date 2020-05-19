@@ -9,8 +9,11 @@ namespace CS_Food_Web_App.Pages.Restaurants
 {
     public class ListModel : PageModel
     {
+        public string Message { get; set; }
+
         public void OnGet()
         {
+            Message = "Hello World!";
         }
     }
 }
